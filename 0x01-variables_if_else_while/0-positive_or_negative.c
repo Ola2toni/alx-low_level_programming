@@ -11,21 +11,21 @@ int main(void)
 {
 	int n;
 	srand (time (0));
-	n = rand () - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
 	if (n == 0)
 	{
-		printf("It is Zero \n", n);
+		printf("%i is zero\n", n);
 	}
 
-	else if (n<0)
+	else if (n < 0)
 	{
-		printf("It is negative \n", n);
+		printf("%i is negative\n", n);
 	}
 
 	else
 	{
-		printf ("It is positive \n", n);
+		printf ("%i is positive\n", n);
 	}
 
 	return (0);
