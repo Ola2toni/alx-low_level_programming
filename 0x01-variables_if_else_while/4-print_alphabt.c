@@ -9,11 +9,12 @@
 int main(void)
 {
 	char alphabet;
+
 	for (alphabet = 'a'; alphabet  <= 'z'; alphabet++)
 	{
 		if (alphabet == 'a')
 			continue;
-		else if (alphabet == '0')
+		else if (alphabet == 'a')
 			continue;
 		putchar (alphabet);
 	}
