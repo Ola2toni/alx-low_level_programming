@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-	int n1;
-        int n2;
+	int digit1;
+        int digit2;
 
-	for (n1 = 0; n1 < 9; n1++)
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-		for (n2 = n1 + 1; n2 < 10; n2++)
+		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 		{
-			putchar((n1 % 10) + '0');
-			putchar((n2 % 10) + '0');
+			putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
 
-			if (n1 == 8 && n2 == 9)
+			if (digit1 == 8 && digit2 == 9)
 				continue;
 			putchar (',');
 			putchar (' ');
