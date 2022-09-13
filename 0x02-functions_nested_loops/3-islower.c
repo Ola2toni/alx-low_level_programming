@@ -13,5 +13,3 @@ if (c >= 'a' && c <= 'z')
 else 
 	return (0);
 }
-	
-
