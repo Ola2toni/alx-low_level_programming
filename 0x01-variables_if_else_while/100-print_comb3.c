@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (success/correct)
  */
-int main(void)
+int main (void)
 {
 	int digit1, digit2;
 
