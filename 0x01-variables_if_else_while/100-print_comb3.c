@@ -2,13 +2,12 @@
 /**
  * main - Entry point
  *
- * Description - coming right up
- *
  * Return: Always 0 (success/correct)
  */
 int main(void)
 {
-	int n1, n2;
+	int n1;
+        int n2;
 
 	for (n1 = 0; n1 < 9; n1++)
 	{
