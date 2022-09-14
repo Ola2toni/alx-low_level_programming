@@ -1,1 +1,1 @@
-My first time with C
+To debug errors
