@@ -3,7 +3,7 @@
  * jack_bauer - function prints every minute of the day of jack bauer, starting from 00:00 to 23:00.
  * Return: 0
  */
-int jack_bauer(void)
+void jack_bauer(void)
 {
 	int hours = 0;
 	int minutes = 0;
