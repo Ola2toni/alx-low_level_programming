@@ -11,12 +11,12 @@ int sum = 0;
 
 while (mult < 1024)
 {
-	if (mult % 3 == 0 || mult % 5 == 0)
-	{
-		 sum += mult;
-	 }
-	mult++;
+if (mult % 3 == 0 || mult % 5 == 0)
+{
+sum += mult;
 }
-	printf("%d\n", sum);
-	return (0);
+mult++;
+}
+printf("%d\n", sum);
+return (0);
 }
