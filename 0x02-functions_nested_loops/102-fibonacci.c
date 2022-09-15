@@ -5,7 +5,7 @@
  * Return: 0 if successful
  */
 
-int main (void)
+int main(void)
 {
 	long a = 1;
 	long b = 2;
@@ -14,7 +14,7 @@ int main (void)
 	printf("%li, ", a);
 	printf("%li, ", b);
 
-	while (n < 50)
+	while( n < 50)
 	{
 		long fib = a + b;
 
