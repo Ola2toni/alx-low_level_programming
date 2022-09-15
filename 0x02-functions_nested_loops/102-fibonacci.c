@@ -14,7 +14,7 @@ int main(void)
 	printf("%li, ", a);
 	printf("%li, ", b);
 
-	while ( n < 50)
+	while (n < 50)
 	{
 		long fib = a + b;
 
