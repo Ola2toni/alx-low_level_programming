@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*8
+/**
  * print_square - prints the square of a number
  * @size: parameter
  * Return: returns nothing
@@ -19,12 +19,12 @@ void print_square(int size)
 				_putchar('#');
 			}
 
-			putchar('#');
-			putchar('\n');
+			_putchar('#');
+			_putchar('\n');
 		}
 	}
 	else
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 }
