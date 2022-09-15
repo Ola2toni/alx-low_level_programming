@@ -12,7 +12,7 @@ int main (void)
 	int n = 3;
 
 	printf("%li, ", a);
-	printf("%li, ", fib);
+	printf("%li, ", b);
 
 	while (n < 50)
 	{
