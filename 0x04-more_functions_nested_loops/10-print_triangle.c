@@ -15,7 +15,7 @@ void print_triangle(int size)
 	{
 		while (y < size)
 		{
-			space = size y - 1;
+			space = size - y - 1;
 			while (x < size)
 			{
 				if(space > x)
