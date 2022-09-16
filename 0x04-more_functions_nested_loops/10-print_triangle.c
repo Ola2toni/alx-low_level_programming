@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -30,6 +31,7 @@ void print_triangle(int size)
 			}
 			y++;
 			x = 0;
+
 			_putchar('\n');
 		}
 	}
