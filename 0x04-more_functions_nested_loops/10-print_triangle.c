@@ -4,7 +4,7 @@
 /**
  * print_triangle - prints triangles
  * 
- * Return: 0
+ * Return: nothing
  */
 
 void print_triangle(int size)
