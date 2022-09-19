@@ -6,9 +6,10 @@
  *
  * Return: void
  */
-void print_array(int a, int n)
+void print_array(int *a, int n)
 {
 	int i;
+	int a;
 
 	for (i = 0; i < n; i++)
 	{
