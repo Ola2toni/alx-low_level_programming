@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	srand (time (NULL));
+	srand(time(NULL));
 	sum = 0;
 	while (sum <= 2645)
 	{
