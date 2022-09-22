@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: str success
+ * Return: 0 success
  */
 int main(void)
 {
@@ -22,5 +22,5 @@ p = &n;
 p[5] = 98;
 /* ...so that this prints 98\n */
 printf("a[2] = %d\n", a[2]);
-return (str);
+return (0);
 }
