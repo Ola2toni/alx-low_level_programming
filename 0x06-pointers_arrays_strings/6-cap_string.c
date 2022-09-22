@@ -6,15 +6,10 @@
  */
 char *cap_string(char *str)
 {
-int index;
+int index = 0;
 
-index = 0;
-while (str[index] != '\0')
-{
-if (str[0] >= 97 && str[0] <= 122)
-{
-str[0] = str[0] - 32;
-}
+while (!(str[index] >= 'a' && str[index] <= 'z'))
+index++;
 
 if (str[index - 1] == ' ' ||
 str[index - 1] == '\t' ||
@@ -30,12 +25,7 @@ str[index - 1] == ')' ||
 str[index - 1] == '{' ||
 str[index - 1] == '}')
 {
-if (str[index + 1] >= 97 && str[index + 1] <= 122)
-{
-str[index + 1] = str[index + 1] - 32;
-}
-}
-index++
+str[index] -= 32;
 }
 return (str);
 }
