@@ -6,17 +6,24 @@
  */
 char *leet(char *str)
 {
-	int index1 = 0, index2;
-	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	int count = 0, i;
+	int lower_case[] = {97, 101, 111, 116, 108};
+	int upper_case[] = {65, 69, 79, 84, 76};
+	int numbers[] = {52, 51, 48, 55, 49};
 
-	while (str[++index1])
+
+	while (*(s + count) != '\0')
 	{
-		for (index2 = 0; index2 <= ?; index2++)
+		for (i = 0; i < 5; i++)
 		{
-			if (str[index1] == leet[index2] ||
-			 str[index1] - 32 == leet[index2])
-				str[index1] = index2 + "0";
+			if (*(s + count) == lower_case[i] || *(s + count) == upper_case[i])
+			{
+				*(s + count) = numbers[i];
+				break;
+			}
 		}
+		count++;
 	}
-	return (str);
+
+	return (s);
 }
