@@ -17,10 +17,10 @@ for (j = 0; j < 52; j++)
 }
 if (a[j] == *(s + i))
 {
-	*(s + i) = b[j];
-	break;
-																																	}
-																			}
-											}
-						return (s);
+*(s + i) = b[j];
+break;
+}
+}
+}
+return (s);
 }
