@@ -4,7 +4,7 @@
  * @s: source string
  * @b: the constant byte fot filling
  * @n: length of buffer
- * Return: new string
+ * Return: new string (s)
  */
 char *_memset(char *s, char b, unsigned int n)
 {
