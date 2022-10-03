@@ -52,7 +52,7 @@ if (str[i] == ' ' || str[i] == '\0')
 if (c)
 {
 end = i;
-tmp = (char *) malloc(sizeof(char)
+tmp = (char *) malloc(sizeof(char))
 if (tmp == NULL)
 return (NULL);
 while (start < end)
