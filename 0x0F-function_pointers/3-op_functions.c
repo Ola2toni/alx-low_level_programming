@@ -1,6 +1,6 @@
 #include "3-calc.h"
 /**
- * opp_add - return the sum of two numbers
+ * op_add - return the sum of two numbers
  * @a: integer
  * @b: integer
  * Return: sum
