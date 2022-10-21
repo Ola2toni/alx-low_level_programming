@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void msg(void)_attribute_((constructor));
+void msg(void), _attribute_((constructor));
 
 /**
  * msg - prints a specific message
@@ -8,6 +8,6 @@ void msg(void)_attribute_((constructor));
  */
 void msg(void)
 {
-printf("You're beat! and yet, you must allow,");
+printf("You're beat! and yet, you must allow");
 printf("\nI bore my house upon my back!\n");
 }
