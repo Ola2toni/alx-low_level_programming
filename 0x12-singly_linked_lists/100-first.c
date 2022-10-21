@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void msg(void), _attribute_((constructor));
+void msg(void);
 
 /**
  * msg - prints a specific message
