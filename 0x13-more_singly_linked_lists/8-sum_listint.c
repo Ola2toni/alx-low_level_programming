@@ -14,7 +14,7 @@ return (0);
 
 while (head != 0)
 {
-dd += head->n;
+add += head->n;
 head = head->next;
 }
 
