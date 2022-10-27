@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_bin - prints binary representation of number with & and 
+ * rev_bin - prints binary representation of number with & and
  * Shift Right
  * operators, but uses recursion to reverse the result
  * @n: decimal number
